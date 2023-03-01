@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="/css/cv.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="/JS/functioncv.js"></script>
+
+    <h1 class="principal">Chad Medina</h1>
+    <h1 class="subtitulos">Programador Junior</h1>
+
+    <p>
+        <a href="#estudios">Estudios</a>
+        <a href="#trabajos-realizados">Trabajos realizados</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+            </p>
+
+<img src="https://randomuser.me/api/portraits/men/96.jpg" alt="Foto de perfil de Chad Medina">
+
+    <h2 class="titulos">Edad</h2>
+    <p>42 años</p>
+
+    <h2 class="titulos">Fecha de nacimiento</h2>
+    <p>7/4/1981</p> 
+
+            <a name="estudios"></a>
+    <h2 class="titulos">Estudios</h2>
+    <p>Argentina Programa 4.0</p>
+
+    <a name="trabajos-realizados"></a>
+    <h2 class="titulos">Trabajos realizados</h2>
+    <ul style="margin: 0pc;">
+   <li>Programación independiente de páginas web de emprendimientos locales</li>
+   <li>Marketing digital en Redes Sociales</li> 
+</ul> 
+
+    <a name="habilidades"></a>
+    <h2 class="titulos">Habilidades</h2>
+    <ul style="list-style-type: circle;">
+<li>Adaptación</li>
+<li>Velocidad</li>
+<li>Facilidad de aprendizaje</li>
+<li>Compromiso</li>
+<li>Responsabilidad</li>
+    </ul>
+
+    <a name="contacto"></a>
+<h2 class="titulos">Contacto</h2>
+    <h3>Correo electrónico</h3> <p>chad.medina@example.com</p>
+    <h3>Teléfono</h3> <p>(907) 415-0456</p>
+    <h3>Dirección</h3> <p>9336 Hogan St</p>
+
+
+
+
+<p>Haga click en el botón para desplegar formulario de contacto</p>
+ 
+    <form action="" method="get" id="form" >
+
+<label for="">Nombre y apellido</label> <br>
+<input type="text" name="Nombre y apellido" class="campo" placeholder="Ingrese nombre y apellido" required> 
+<br>
+<label for="">Correo electrónico</label> <br>
+<input type="email" name="email" class="campo" placeholder="Ingrese su correo electrónico" required> 
+<br>
+<label for="">Motivo</label> <br>
+<input type="text" name="Motivo" class="campo" placeholder="Motivo del contacto">
+<br> 
+<input type="submit" value="Enviar" class="boton">
+
+<div>
+    <button id="boton" onclick="ocultar();">Ocultar formulario</button>
+      </div>
+    </form>
+
+  <button id="boton" onclick="desplegar();">Desplegar formulario</button>
+      
+</body>
+</html>
